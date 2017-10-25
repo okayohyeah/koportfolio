@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Katherine Oh's porfolio site",
+  "main": "index.js",
+  "repository": "https://github.com/okayohyeah/portfolio",
+  "author": "Katherine Oh",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}
