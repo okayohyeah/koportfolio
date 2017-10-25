@@ -312,10 +312,11 @@ table {
 body, html {
     font-weight: 400;
     font-family: 'Lora', serif;
-    background: #000;
+    /*background: #000;*/
     color: #fff;
     font-size: 2em;
-    min-width: 320px
+    min-width: 320px;
+    background: linear-gradient(to bottom, #000, #310e56, #922e79);
 }
 
 nav {
