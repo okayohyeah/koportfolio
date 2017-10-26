@@ -20,8 +20,8 @@ audio:not ([controls]) {
 }
 
 html {
-    background: #000;
-    color: #fff;
+/*    background: #000;
+    color: #fff;*/
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -316,7 +316,7 @@ body, html {
     color: #fff;
     font-size: 2em;
     min-width: 320px;
-    background: linear-gradient(to bottom, #000, #310e56, #922e79);
+    background: linear-gradient(to bottom, #000, #1D4350);
 }
 
 nav {
@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: .1em;
     font-weight: 400;
     display: inline-block;
-    color: #fff;
+    color: #FFD200;
     padding: 0 10px
 }
 
@@ -419,9 +419,10 @@ article {
 }
 
 .ltyellow_text {
-    color: #fef0c3;
+    color: #FAFFD1;
 }
 
 .yellow_text{
-    color: #feda6a;
+    color: #FFD200;
 }
+
