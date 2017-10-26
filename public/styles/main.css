@@ -325,7 +325,7 @@ nav {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 img {
@@ -426,3 +426,77 @@ article {
     color: #FFD200;
 }
 
+.wiggle{
+  display: inline-block;
+  white-space: nowrap; 
+}
+
+.wiggle span {
+display: inline-block;
+-webkit-animation: none;
+-moz-animation: none;
+animation: none; 
+}
+
+.wiggle:hover span:nth-child(4n+1) {
+-webkit-animation: bounce-up 0.75s infinite linear;
+-moz-animation: bounce-up 0.75s infinite linear;
+animation: bounce-up 0.75s infinite linear; 
+}
+
+.wiggle:hover span:nth-child(4n+2) {
+-webkit-animation: bounce-up 0.75s infinite linear 0.1s;
+-moz-animation: bounce-up 0.75s infinite linear 0.1s;
+animation: bounce-up 0.75s infinite linear 0.1s; 
+}
+
+.wiggle:hover span:nth-child(4n+3) {
+-webkit-animation: bounce-up 0.75s infinite linear 0.2s;
+-moz-animation: bounce-up 0.75s infinite linear 0.2s;
+animation: bounce-up 0.75s infinite linear 0.2s; 
+}
+
+.wiggle:hover span:nth-child(4n) {
+-webkit-animation: bounce-up 0.75s infinite linear 0.3s;
+-moz-animation: bounce-up 0.75s infinite linear 0.3s;
+animation: bounce-up 0.75s infinite linear 0.3s; 
+}
+
+@-webkit-keyframes bounce-up {
+  0%, 100% {
+    -webkit-transform: translateY(0); }
+  25% {
+    -webkit-transform: translateY(-15%); }
+  75% {
+    -webkit-transform: translateY(15%); } 
+}
+
+@-moz-keyframes bounce-up {
+  0%, 100% {
+    -moz-transform: translateY(0); }
+  25% {
+    -moz-transform: translateY(-15%); }
+  75% {
+    -moz-transform: translateY(15%); } 
+}
+
+@keyframes bounce-up {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+  25% {
+    -webkit-transform: translateY(-15%);
+    -moz-transform: translateY(-15%);
+    -ms-transform: translateY(-15%);
+    -o-transform: translateY(-15%);
+    transform: translateY(-15%); }
+  75% {
+    -webkit-transform: translateY(15%);
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -o-transform: translateY(15%);
+    transform: translateY(15%); }
+}
