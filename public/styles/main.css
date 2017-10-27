@@ -410,12 +410,16 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
     text-align: center;
-    margin: 2em 1em 1em .5em;
+    margin: 2em .5em 2em .5em;
+    word-wrap: break-word;
 }
 
 #about_img {
     margin-top: .1em;
     margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 .ltyellow_text {
@@ -428,7 +432,6 @@ article {
 
 .wiggle{
   display: inline-block;
-  white-space: nowrap; 
 }
 
 .wiggle span {
@@ -500,3 +503,66 @@ animation: bounce-up 0.75s infinite linear 0.3s;
     -o-transform: translateY(15%);
     transform: translateY(15%); }
 }
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFD200;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .75s ease;
+    border-radius: 5px;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  opacity:  0.65;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: .5em;
+  font-family; 'Lora', serif;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text a {
+    color: #1D4350;
+}
+
+/*#sdchallenge_img {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    float: left;
+    height: 50%;
+}*/
+
+/*#sdchallenge_text {
+    font-size: .5em;
+    text-align: center;
+}
+*/
+
+
