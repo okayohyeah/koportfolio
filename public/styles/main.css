@@ -314,7 +314,7 @@ body, html {
   color: #fff;
   font-size: 2em;
   min-width: 320px;
-  background: linear-gradient(to bottom, #000, #1D4350);
+  background: linear-gradient(to bottom, #000, #434343);
 }
 
 nav {
@@ -337,7 +337,7 @@ img {
 }
 
 p {
-  margin: 0 0 10px
+  margin: 0 0 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -440,45 +440,45 @@ article {
 }
 
 .wiggle:hover span:nth-child(4n+1) {
-	-webkit-animation: bounce-up 0.75s infinite linear;
-	-moz-animation: bounce-up 0.75s infinite linear;
-	animation: bounce-up 0.75s infinite linear; 
+	-webkit-animation: bounce-up 1s infinite linear;
+	-moz-animation: bounce-up 1s infinite linear;
+	animation: bounce-up 1s infinite linear; 
 }
 
 .wiggle:hover span:nth-child(4n+2) {
-	-webkit-animation: bounce-up 0.75s infinite linear 0.1s;
-	-moz-animation: bounce-up 0.75s infinite linear 0.1s;
-	animation: bounce-up 0.75s infinite linear 0.1s; 
+	-webkit-animation: bounce-up 1s infinite linear 0.2s;
+	-moz-animation: bounce-up 1s infinite linear 0.2s;
+	animation: bounce-up 1s infinite linear 0.2s; 
 }
 
 .wiggle:hover span:nth-child(4n+3) {
-	-webkit-animation: bounce-up 0.75s infinite linear 0.2s;
-	-moz-animation: bounce-up 0.75s infinite linear 0.2s;
-	animation: bounce-up 0.75s infinite linear 0.2s; 
+	-webkit-animation: bounce-up 1s infinite linear 0.3s;
+	-moz-animation: bounce-up 1s infinite linear 0.3s;
+	animation: bounce-up 1s infinite linear 0.3s; 
 }
 
 .wiggle:hover span:nth-child(4n) {
-	-webkit-animation: bounce-up 0.75s infinite linear 0.3s;
-	-moz-animation: bounce-up 0.75s infinite linear 0.3s;
-	animation: bounce-up 0.75s infinite linear 0.3s; 
+	-webkit-animation: bounce-up 1s infinite linear 0.4s;
+	-moz-animation: bounce-up 1s infinite linear 0.4s;
+	animation: bounce-up 1s infinite linear 0.4s; 
 }
 
 @-webkit-keyframes bounce-up {
   0%, 100% {
     -webkit-transform: translateY(0); }
   25% {
-    -webkit-transform: translateY(-15%); }
+    -webkit-transform: translateY(-17%); }
   75% {
-    -webkit-transform: translateY(15%); } 
+    -webkit-transform: translateY(17%); } 
 }
 
 @-moz-keyframes bounce-up {
   0%, 100% {
     -moz-transform: translateY(0); }
   25% {
-    -moz-transform: translateY(-15%); }
+    -moz-transform: translateY(-17%); }
   75% {
-    -moz-transform: translateY(15%); } 
+    -moz-transform: translateY(17%); } 
 }
 
 @keyframes bounce-up {
@@ -489,17 +489,17 @@ article {
     -o-transform: translateY(0);
     transform: translateY(0); }
   25% {
-    -webkit-transform: translateY(-15%);
-    -moz-transform: translateY(-15%);
-    -ms-transform: translateY(-15%);
-    -o-transform: translateY(-15%);
-    transform: translateY(-15%); }
+    -webkit-transform: translateY(-17%);
+    -moz-transform: translateY(-17%);
+    -ms-transform: translateY(-17%);
+    -o-transform: translateY(-17%);
+    transform: translateY(-17%); }
   75% {
-    -webkit-transform: translateY(15%);
-    -moz-transform: translateY(15%);
-    -ms-transform: translateY(15%);
-    -o-transform: translateY(15%);
-    transform: translateY(15%); }
+    -webkit-transform: translateY(17%);
+    -moz-transform: translateY(17%);
+    -ms-transform: translateY(17%);
+    -o-transform: translateY(17%);
+    transform: translateY(17%); }
 }
 
 .container {
@@ -550,5 +550,22 @@ article {
     color: #1D4350;
 }
 
+.flexcontainer {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.flexitem {
+	width: 50%;
+	height: 50%;
+	margin: 10px;
+	font-size: .25em;
+	}
 
 
