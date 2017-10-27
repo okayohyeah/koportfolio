@@ -21,5 +21,5 @@ app.get('/contact', function (request, response) {
 });
 
 app.listen(3000, function () {
-	console.log('Katherine Oh and her portfolio site listening on port 3000!');
+	console.log('Katherine Oh is listening on port 3000!');
 });
