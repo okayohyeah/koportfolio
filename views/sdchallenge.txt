@@ -1,10 +1,10 @@
 This React app welcomes users to sign up and have fun 
-exploring San Diego through a curated Challenges List. After chosing a challenge and the user gets to the location, they complete the challenge by clicking the 
-					Complete button. Their location is verified through 
-					geolocation. Each challenge awards points upon completion.
-					 Their total score will be displayed on their user 
-					profile as well as the Leaderboard.
-				<strong>Stack: React, Node, Express, Sequelize, PostgresSQL
+exploring San Diego through a curated Challenges List. 
+After chosing a challenge and the user gets to the location, they complete the challenge by clicking the Complete button. Their location is verified through 
+geolocation. Each challenge awards points upon completion.
+ Their total score will be displayed on their user 
+profile as well as the Leaderboard.
+<strong>Stack: React, Node, Express, Sequelize, PostgresSQL
 
 
 modal:
