@@ -41,7 +41,7 @@ a:active, a:hover {
   outline: 0
 }
 
-/*h1 {
+h1 {
   font-size: 2em;
   margin: .67em 0
 }
@@ -69,7 +69,7 @@ h5 {
 h6 {
   font-size: .67em;
   margin: 2.33em 0
-}*/
+}
 
 abbr[title] {
   border-bottom: 1px dotted
@@ -408,8 +408,15 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
   text-align: center;
-  margin: 2em .5em 2em .5em;
+  margin: 2em .75em 2em .75em;
   word-wrap: break-word;
+}
+
+footer {
+  font-family: 'Muli', sans-serif;
+  font-size: .25em;
+  text-align: center;
+  padding-bottom: 1em;
 }
 
 #about_img {
@@ -421,7 +428,7 @@ article {
 }
 
 .ltyellow_text {
-  color: #FAFFD1;
+  color: #FFED96;
 }
 
 .yellow_text{
