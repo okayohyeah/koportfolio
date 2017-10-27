@@ -6,9 +6,15 @@
   "repository": "https://github.com/okayohyeah/portfolio",
   "author": "Katherine Oh",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "yarn install & yarn build"
+  },
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "global": "^4.3.2",
+    "heroku-cli": "^6.14.36",
     "nodemon": "^1.12.1"
   }
 }
