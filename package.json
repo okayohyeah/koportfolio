@@ -10,10 +10,13 @@
     "start": "node index.js",
     "heroku-postbuild": "yarn install && yarn build"
   },
+  "engines": {
+    "node": "8.5.0",
+    "yarn": "1.0.2"
+  },
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "heroku-ssl-redirect": "^0.0.4",
     "nodemon": "^1.12.1"
   }
 }
