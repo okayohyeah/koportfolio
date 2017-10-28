@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "yarn install && yarn build"
+    "heroku-postbuild": "yarn install",
+    "build": "yarn"
   },
   "engines": {
     "node": "8.5.0",
