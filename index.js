@@ -1,5 +1,6 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const  app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
@@ -20,6 +21,6 @@ app.get('/contact', function (request, response) {
 	response.render('contact');
 });
 
-app.listen(3000, function () {
-	console.log('Katherine Oh is listening on port 3000!');
+app.listen(port, function () {
+	console.log('Katherine Oh is listening on port ' + port);
 });
