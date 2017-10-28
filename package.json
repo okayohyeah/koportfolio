@@ -7,8 +7,7 @@
   "author": "Katherine Oh",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "yarn install & yarn build"
+    "start": "node index.js"
   },
   "dependencies": {
     "ejs": "^2.5.7",
