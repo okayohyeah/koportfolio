@@ -1118,4 +1118,44 @@ footer a {
 	font-size: .25em;
 	}
 
+/*KO ANIMATION*/
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: 'Muli', sans-serif;
+    font-size: 3px;
+    line-height: 5px;
+    position: fixed;
+    color: #fff;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+/*
+#singleKoContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.singleKo {
+    padding-left: 15px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #fff;
+    user-select: none;
+    z-index: 1000;
+}
+.singleKo:hover {
+    cursor: default;
+}*/
 
