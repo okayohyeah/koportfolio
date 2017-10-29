@@ -727,11 +727,162 @@ iframe {
     max-width: 100%
 }
 
-/*BELOW: this is new and makes font even smaller*/
+/*BELOW: new styling for each view 
+START with PROJECTS*/
 
+article {
+    -ms-word-break: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -webkit-hyphenate-character: "-";
+}
 
+@media screen and (min-width:1071px) {
+    article > iframe, article > p > iframe {
+        max-width: 60%;
+        max-height: 60%
+    }
+}
 
+@media screen and (max-width:1070px) {
+    iframe, img {
+        max-width: 100%
+    }
 
+    img {
+        width: 100%
+    }
+
+    #ytplayer iframe {
+        height: auto
+    }
+}
+
+@media screen and (max-width:767px) {
+    iframe.soundcloud {
+        height: 150px
+    }
+}
+
+/*changed to my original #mainnav*/
+#mainnav {
+  position: fixed;
+  top: 4%;
+  z-index: 999;
+  height: 60px;
+  width: 100%
+}
+
+#mainnav ul {
+    margin: 0;
+    padding: 0
+}
+
+#mainnav #left {
+    position: absolute;
+    left: 2%;
+    text-align: left
+}
+
+#mainnav #middle {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 40%;
+    margin-left: -20%
+}
+
+#mainnav #right {
+    position: absolute;
+    right: 2%;
+    text-align: right
+}
+
+#mainnav ul li {
+    margin-bottom: 10px;
+    margin-bottom: .5vmin
+}
+
+/*changed to original - added back font-sizes and adjusted padding
+*/#mainnav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-size: 2.5vmin;
+    line-height: 12px;
+    line-height: 2.5vmin;
+    letter-spacing: .1em;
+    font-weight: 400;
+    display: inline-block;
+    color: #FFD200;
+    padding: 5px 5px 5px 5px
+}
+
+@media screen and (max-width:767px) {
+    #mainnav ul li a {
+        font-size: .9em
+    }
+}
+
+#projects {
+    display: inline-block;
+    font-family: 'Lora', serif;
+    width: 100%;
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 80px;
+    line-height: 90px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+    /*added letter-spacing*/
+    letter-spacing: .1em;
+}
+
+#projects u {
+    text-decoration: none;
+    border-bottom: 4px solid #000
+}
+
+@media screen and (max-width:1070px) {
+    #projects u {
+        border-bottom: 3px solid #000
+    }
+}
+
+@media screen and (max-width:767px) {
+    #projects {
+        font-size: 2em;
+        line-height: 1.25em;
+        padding-top: 3.5em
+    }
+
+    #projects article form input {
+        font-size: 1em
+    }
+
+    #projects u {
+        border-bottom: 2px solid #000
+    }
+}
+
+#projects article {
+    margin: auto;
+    width: 84%;
+    width: 84vw;
+    text-align: center
+}
+
+#projects a {
+    color: #FFD200;
+    text-decoration: none;
+}
+/*
+ABOVE TESTING WITH MAINNAV AND PROJECTS */
 
 
 
@@ -741,12 +892,17 @@ iframe {
 
 nav {
   font-family: 'Muli', sans-serif;
-  font-size: .35em;
+  font-size: .7em;
 }
 
-a {
+
+/*BELOW: MY ORIGINAL STUFF
+
+
+
+/*a {
   text-decoration: none;
-}
+}*/
 
 /*img {
   height: auto;
@@ -758,7 +914,7 @@ a {
   -ms-interpolation-mode: bicubic
 }*/
 
-p {
+/*p {
   margin: 0 0 10px;
 }
 
@@ -810,9 +966,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainnav ul li a {
-  text-decoration: none;
-/*    font-size: 22px;*/
-/*    font-size: 2.5vmin;*/
+  text-decoration: none;*/
+/*
   line-height: 12px;
   line-height: 2.5vmin;
   letter-spacing: .1em;
@@ -832,7 +987,7 @@ article {
   text-align: center;
   margin: 2em .75em 2em .75em;
   word-wrap: break-word;
-}
+}*/
 
 footer {
   font-family: 'Muli', sans-serif;
@@ -859,9 +1014,6 @@ footer {
   height: auto;
   max-width: 100%;
 }
-
-
-
 
 .ltyellow_text {
   color: #FFED96;
