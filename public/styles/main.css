@@ -20,7 +20,10 @@ audio:not ([controls]) {
 }
 
 html {
+  background: linear-gradient(to bottom, #000, #434343);
+  color: ;
   font-size: 100%;
+  color: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%
 }
@@ -311,10 +314,8 @@ table {
 body, html {
   font-weight: 400;
   font-family: 'Lora', serif;
-  color: #fff;
   font-size: 2em;
   min-width: 320px;
-  background: linear-gradient(to bottom, #000, #434343);
 }
 
 nav {
