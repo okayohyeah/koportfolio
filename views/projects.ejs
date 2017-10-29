@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 
 <% include ../partials/head %>
-	<body id='projects'>
+	<body>
 	<% include ../partials/nav %>
-			<article>
-				<p><span class='yellow_text'>Projects</span>
-				
-				<hr>
-				<!-- SD Challenge Project -->
-				<div class='flexcontainer'>
-					<!-- SD Challenge image -->
-					<div class='flexitem container'>
-						<img src='images/sdchallenge.png' alt='SD Challenge' class='image'>
-					</div>
+			<section id='projects'>
+				<article>
+					<p><span class='yellow_text'>Projects</span>
+					
+					<hr>
+					<!-- SD Challenge Project -->
+					<div class='flexcontainer'>
+						<!-- SD Challenge image -->
+						<div class='flexitem container'>
+							<img src='images/sdchallenge.png' alt='SD Challenge' class='project_images'>
+						</div>
 
-					<!-- SD Challenge info-->
-				  <div class='flexitem'>
-			      <h2 class='yellow_text'>SD Challenge</h2>
-			      <p>For our group project we built this React app, which welcomes users to sign up and 
-			      have fun exploring San Diego through a curated <span class='ltyellow_text'>Challenges List</span>. After chosing a
-			      challenge and the user gets to the location, they complete the challenge by clicking 
-			      the <span class='ltyellow_text'>Complete</span> button. Their location is verified through geolocation and marker is placed
-			      on their map. Each challenge awards points upon completion. Their total score will be 
-			      displayed on their user profile as well as the <span class='ltyellow_text'>Leaderboard</span>.</p>
-			      <p><span class='ltyellow_text'>Stack:</span> React, Node, Express, Sequelize, PostgresSQL</p>
-			      <p><a href='https://sdchallenge.herokuapp.com' class='yellow_text' target='_blank'>Launch App</a> | <a class='yellow_text' href='https://github.com/12aayub/SDChallenge' target='_blank'>GitHub</a></p>
-			    </div>
-			  </div>
-				<hr>
-				<a class='wiggle' href='mailto:hello@katherineoh.com' target='_blank'>
-					<span class='yellow_text'>h</span>
-					<span class='yellow_text'>e</span>
-					<span class='yellow_text'>l</span>
-					<span class='yellow_text'>l</span>
-					<span class='yellow_text'>o</span>
-					<span class='yellow_text'>@</span>
-					<span class='yellow_text'>k</span>
-					<span class='yellow_text'>a</span>
-					<span class='yellow_text'>t</span>
-					<span class='yellow_text'>h</span>
-					<span class='yellow_text'>e</span>
-					<span class='yellow_text'>r</span>
-					<span class='yellow_text'>i</span>
-					<span class='yellow_text'>n</span>
-					<span class='yellow_text'>e</span>
-					<span class='yellow_text'>o</span>
-					<span class='yellow_text'>h</span>
-					<span class='yellow_text'>.</span>
-					<span class='yellow_text'>c</span>
-					<span class='yellow_text'>o</span>
-					<span class='yellow_text'>m</span>
-				</a> 
-			</article>
+						<!-- SD Challenge info-->
+					  <div class='flexitem'>
+				      <h2 class='yellow_text'>SD Challenge</h2>
+				      <p>For our group project we built this React app, which welcomes users to sign up and 
+				      have fun exploring San Diego through a curated <span class='ltyellow_text'>Challenges List</span>. After chosing a
+				      challenge and the user gets to the location, they complete the challenge by clicking 
+				      the <span class='ltyellow_text'>Complete</span> button. Their location is verified through geolocation and marker is placed
+				      on their map. Each challenge awards points upon completion. Their total score will be 
+				      displayed on their user profile as well as the <span class='ltyellow_text'>Leaderboard</span>.</p>
+				      <p><span class='ltyellow_text'>Stack:</span> React, Node, Express, Sequelize, PostgresSQL</p>
+				      <p><a href='https://sdchallenge.herokuapp.com' class='yellow_text' target='_blank'>Launch App</a> | <a class='yellow_text' href='https://github.com/12aayub/SDChallenge' target='_blank'>GitHub</a></p>
+				    </div>
+				  </div>
+					<hr>
+					<a class='wiggle' href='mailto:hello@katherineoh.com' target='_blank'>
+						<span class='yellow_text'>h</span>
+						<span class='yellow_text'>e</span>
+						<span class='yellow_text'>l</span>
+						<span class='yellow_text'>l</span>
+						<span class='yellow_text'>o</span>
+						<span class='yellow_text'>@</span>
+						<span class='yellow_text'>k</span>
+						<span class='yellow_text'>a</span>
+						<span class='yellow_text'>t</span>
+						<span class='yellow_text'>h</span>
+						<span class='yellow_text'>e</span>
+						<span class='yellow_text'>r</span>
+						<span class='yellow_text'>i</span>
+						<span class='yellow_text'>n</span>
+						<span class='yellow_text'>e</span>
+						<span class='yellow_text'>o</span>
+						<span class='yellow_text'>h</span>
+						<span class='yellow_text'>.</span>
+						<span class='yellow_text'>c</span>
+						<span class='yellow_text'>o</span>
+						<span class='yellow_text'>m</span>
+					</a> 
+				</article>
+			</section>
 		<% include ../partials/footer %>
 	</body>
 </html>
