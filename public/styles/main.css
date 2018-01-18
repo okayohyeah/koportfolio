@@ -1013,6 +1013,19 @@ section {
   text-decoration: none;
 }
 
+#contact .form-control {
+  font-size: 18px;
+
+}
+
+#contact .btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
 /*FOOTER*/
 footer {
   font-family: 'Muli', sans-serif;
