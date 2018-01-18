@@ -1116,44 +1116,6 @@ footer a {
     transform: translateY(17%); }
 }
 
-/*.flexcontainer {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-}
-
-.flexitem {
-	width: 50%;
-	height: 50%;
-	margin: 10px;
-	font-size: .25em;
-}*/
-
-/*KO ANIMATION*/
-
-#snowflakeContainer {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-.snowflake {
-    padding-left: 15px;
-    font-family: 'Muli', sans-serif;
-    font-size: 3px;
-    line-height: 5px;
-    position: fixed;
-    color: #fff;
-    user-select: none;
-    z-index: 1000;
-}
-.snowflake:hover {
-    cursor: default;
-}
 
 
 
