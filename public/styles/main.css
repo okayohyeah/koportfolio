@@ -786,23 +786,25 @@ section {
 
 @media screen and (max-width:1070px) {
   #index u {
-      border-bottom: 3px solid #000
+    text-decoration: none;
+    border-bottom: 3px solid #000
   }
 }
 
 @media screen and (max-width:767px) {
   #index {
-      font-size: 2em;
-      line-height: 1.25em;
-      padding-top: 3.5em
+    font-size: 2em;
+    line-height: 1.25em;
+    padding-top: 3.5em
   }
 
   #index article form input {
-      font-size: 1em
+    font-size: 1em
   }
 
   #index u {
-      border-bottom: 2px solid #000
+    text-decoration: none;
+    border-bottom: 2px solid #000
   }
 }
 
@@ -842,23 +844,25 @@ section {
 
 @media screen and (max-width:1070px) {
   #projects u {
-      border-bottom: 3px solid #000
+    text-decoration: none;
+    border-bottom: 3px solid #000
   }
 }
 
 @media screen and (max-width:767px) {
   #projects {
-      font-size: 2em;
-      line-height: 1.25em;
-      padding-top: 3.5em
+    font-size: 2em;
+    line-height: 1.25em;
+    padding-top: 3.5em
   }
 
   #projects article form input {
-      font-size: 1em
+    font-size: 1em
   }
 
-  #projects u {
-      border-bottom: 2px solid #000
+  #projects u {  
+    text-decoration: none;
+    border-bottom: 2px solid #000
   }
 }
 
@@ -872,11 +876,6 @@ section {
 #projects a {
   color: #FFD200;
   text-decoration: none;
-}
-
-#projects p {
-  font-size: .75em;
-  line-height: 1.5em
 }
 
 .project_images {
@@ -914,7 +913,8 @@ section {
 
 @media screen and (max-width:1070px) {
   #about u {
-      border-bottom: 3px solid #000
+    text-decoration: none;
+    border-bottom: 3px solid #000
   }
 }
 
@@ -930,7 +930,8 @@ section {
   }
 
   #about u {
-      border-bottom: 2px solid #000
+    text-decoration: none;
+    border-bottom: 2px solid #000
   }
 }
 
@@ -969,24 +970,26 @@ section {
 }
 
 @media screen and (max-width:1070px) {
-  #contact u {
-      border-bottom: 3px solid #000
+  #contact u { 
+    text-decoration: none;
+    border-bottom: 3px solid #000
   }
 }
 
 @media screen and (max-width:767px) {
   #contact {
-      font-size: 2em;
-      line-height: 1.25em;
-      padding-top: 3.5em
+    font-size: 2em;
+    line-height: 1.25em;
+    padding-top: 3.5em
   }
 
   #contact article form input {
-      font-size: 1em
+    font-size: 1em
   }
 
   #contact u {
-      border-bottom: 2px solid #000
+    text-decoration: none;
+    border-bottom: 2px solid #000
   }
 }
 
