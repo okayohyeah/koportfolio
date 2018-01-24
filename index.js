@@ -21,6 +21,10 @@ app.get('/contact', function (request, response) {
 	response.render('contact');
 });
 
+app.get('/thanks', function (request, response) {
+  response.render('thanks');
+});
+
 app.listen(port, function () {
 	console.log('Katherine Oh is listening on port ' + port);
 });
