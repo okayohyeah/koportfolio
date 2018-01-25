@@ -20,8 +20,6 @@ audio:not ([controls]) {
 }
 
 html {
-  background: linear-gradient(to bottom, #c94b4b, #480048);
-  color: #fff;
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%
@@ -647,7 +645,7 @@ textarea {
 body, html {
   font-weight: 400;
   font-family: 'Lora', serif;
-  background: linear-gradient(to bottom, #000, #434343);
+  background: linear-gradient(to bottom, #aa076b, #480048);
   color: #fff;
   font-size: 14px;
   min-width: 320px  
@@ -820,6 +818,16 @@ section {
   text-decoration: none;
 }
 
+.index_img {
+  margin-top: .1em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  border-radius: 5px;
+}
+
 /*PROJECTS*/
 #projects {
   display: inline-block;
@@ -835,6 +843,10 @@ section {
   margin-bottom: 0;
   /*added letter-spacing*/
   letter-spacing: .1em;
+}
+
+ #projects_header {
+  margin-bottom: 25px;
 }
 
 #projects u {
@@ -879,8 +891,6 @@ section {
 }
 
 .project_images {
-  margin-top: .5em;
-  margin-bottom: 1em;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -909,6 +919,17 @@ section {
 #about u {
   text-decoration: none;
   border-bottom: 4px solid #000
+}
+
+#about_header {
+  margin-bottom: 25px;
+}
+
+#vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width:1070px) {
@@ -947,6 +968,16 @@ section {
   text-decoration: none;
 }
 
+.about_img {
+  margin-top: .1em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  border-radius: 5px;
+}
+
 /*CONTACT*/
 #contact {
   display: inline-block;
@@ -976,6 +1007,16 @@ section {
 #contact .error_text {
   font-size: 12px;
   color: #b6baff;
+}
+
+.contact_img {
+  margin-top: .1em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  border-radius: 5px;
 }
 
 @media screen and (max-width:1070px) {
@@ -1037,25 +1078,6 @@ footer {
 footer a {
   color: #FFD200;
   text-decoration: none;
-}
-
-/*#challenge_image{
-  display: block;
-  margin-top: .5em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-}*/
-
-#about_img {
-  margin-top: .1em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border: 0;
-  border-radius: 5px;
 }
 
 .ltyellow_text {

@@ -5,22 +5,31 @@
 		<% include ../partials/nav %>
 			<section id='about'>	
 				<article>
-					<h1 class='ltyellow_text'>Greetings!</h1>
-					
-					<img id='about_img' src='images/ko_morro.jpg' alt='Katherine at Morro Bay'>
-					
-					<p class='lead'>I'm <span class='yellow_text'> Katherine Oh</span>, a San Diego based <span class='ltyellow_text'>Front End Web Developer</span> and I love building and creating things with code.</p>
-
-					<p class='lead'>I collect specimens so I can look at them under my microscope. Nachos are delicious.</p> 
-
-					<p class='lead'>My other half and I take road trips around America with our two dogs, Bruce and Juno.</p> 
-
-					<p class='lead'>I am former artist, reluctant runner, but an avid foodie and traveler.</p>
-					<hr>
-					<h2 class='ltyellow_text'>I built this site using</h1>
-					<p class='lead'>Node, Express, EJS, Bootstrap, HTML, CSS and JS. 
-					<p class='lead'><a href='https://github.com/okayohyeah/portfolio' target='_blank'><span class='ltyellow_text'>GitHub</span></a></p> 
-
+					<h1 class='ltyellow_text' id='about_header'>Greetings!</h1>
+          <div class='row'>
+            <!-- Image -->
+            <div class="col-md-6">
+              <img class='about_img' src='images/ko_morro.jpg' alt='Katherine at Morro Bay'>
+            </div>
+            <!-- Text -->
+            <div class="col-md-6">
+              <p class='lead'>I'm <span class='yellow_text'> Katherine Oh</span>, a San Diego based <span class='ltyellow_text'>Front End Web Developer</span> and I love building and creating things with code.</p>
+              <p class='lead'>I collect specimens so I can look at them under my microscope.</p> 
+              <p class='lead'>Nachos are delicious. So are Cheetos.</p> 
+            </div>
+          </div>
+          <div class='row vertical-center'>
+            <!-- Text -->
+            <div class="col-md-6">
+              <p class='lead'>My other half and I take road trips around America with our two dogs, Bruce and Juno. They hate camping.</p> 
+              <p class='lead'>I am former artist, reluctant runner, but an avid foodie and traveler.</p> 
+              <p class='lead'>I'll eat most anything, anywhere.</p>
+            </div>
+            <!-- Image -->
+            <div class="col-md-6">
+              <img class='about_img' src='images/oregon.jpg' alt='Katherine entering Oregon'>
+            </div>
+          </div>
 				</article>
 			</section>
 		<% include ../partials/footer %>	
