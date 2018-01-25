@@ -756,8 +756,6 @@ nav {
     }
 }
 
-/* SECTION */
-
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
   section {
@@ -767,28 +765,28 @@ nav {
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-  nav {
+  section {
     margin-bottom: .4em;
   }
 }
 
 /* iPad Pro ----------- */
 @media only screen  and (min-width : 1024px) {
-  nav {
+  section {
     margin-bottom: .8em;
   }
 }
 
-/* iPad Pro ----------- */
+/* iPad ----------- */
 @media only screen  and (min-width : 768px) {
-  nav {
+  section {
     margin-bottom: .4em;
   }
 }
 
 /* smaller devices ----------- */
 @media only screen  and (min-width : 375px) {
-  nav {
+  section {
     margin-bottom: -1em;
   }
 }
