@@ -644,7 +644,7 @@ textarea {
 
 body, html {
   font-weight: 400;
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   background: linear-gradient(to bottom, #aa076b, #480048);
   color: #fff;
   font-size: 14px;
@@ -777,14 +777,28 @@ section {
 /* iPad Pro ----------- */
 @media only screen  and (min-width : 1024px) {
   nav {
-    margin-bottom: .3em;
+    margin-bottom: .8em;
+  }
+}
+
+/* iPad Pro ----------- */
+@media only screen  and (min-width : 768px) {
+  nav {
+    margin-bottom: .4em;
+  }
+}
+
+/* smaller devices ----------- */
+@media only screen  and (min-width : 375px) {
+  nav {
+    margin-bottom: -1em;
   }
 }
 
 /*INDEX*/
 #index {
   display: inline-block;
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   width: 100%;
   color: #fff;
   padding-top: 1em;
@@ -852,7 +866,7 @@ section {
 /*PROJECTS*/
 #projects {
   display: inline-block;
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   width: 100%;
   color: #fff;
   padding-top: 1em;
@@ -923,7 +937,7 @@ section {
 
 #about {
   display: inline-block;
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   width: 100%;
   color: #fff;
   padding-top: 1em;
@@ -1002,7 +1016,7 @@ section {
 /*CONTACT*/
 #contact {
   display: inline-block;
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   width: 100%;
   color: #fff;
   padding-top: 1em;
@@ -1091,7 +1105,7 @@ section {
 /* THANKS */
 #thanks {
   display: inline-block;
-  font-family: 'Bitter', serif;
+  font-family: 'Lora', serif;
   width: 100%;
   color: #fff;
   padding-top: 1em;
