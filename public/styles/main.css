@@ -765,28 +765,28 @@ nav {
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-  section {
+  nav {
     margin-bottom: .4em;
   }
 }
 
 /* iPad Pro ----------- */
 @media only screen  and (min-width : 1024px) {
-  section {
+  nav {
     margin-bottom: .8em;
   }
 }
 
 /* iPad ----------- */
 @media only screen  and (min-width : 768px) {
-  section {
+  nav {
     margin-bottom: .4em;
   }
 }
 
 /* smaller devices ----------- */
 @media only screen  and (min-width : 375px) {
-  section {
+  nav {
     margin-bottom: -1em;
   }
 }
