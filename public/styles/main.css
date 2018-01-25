@@ -756,9 +756,7 @@ nav {
     }
 }
 
-section {
-  margin-top: .25em;
-}
+/* SECTION */
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
