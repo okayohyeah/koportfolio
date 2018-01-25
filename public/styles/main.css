@@ -699,6 +699,27 @@ nav {
   font-size: 1em;
 }
 
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  nav {
+    margin-bottom: 10px;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  nav {
+    margin-bottom: 8px;
+  }
+}
+
+/* iPad Pro ----------- */
+@media only screen  and (min-width : 1024px) {
+  nav {
+    margin-bottom: 5px;
+  }
+}
+
 #mainnav {
   position: fixed;
   top: 4%;
