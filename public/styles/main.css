@@ -20,6 +20,8 @@ audio:not ([controls]) {
 }
 
 html {
+  background: linear-gradient(to bottom, #aa076b, #480048);
+  color: #fff;
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%
@@ -756,39 +758,8 @@ nav {
     }
 }
 
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-  section {
-    margin-bottom: 1em;
-  }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1224px) {
-  nav {
-    margin-bottom: .6em;
-  }
-}
-
-/* iPad Pro ----------- */
-@media only screen  and (min-width : 1024px) {
-  nav {
-    margin-bottom: .8em;
-  }
-}
-
-/* iPad ----------- */
-@media only screen  and (min-width : 768px) {
-  nav {
-    margin-bottom: .4em;
-  }
-}
-
-/* smaller devices ----------- */
-@media only screen  and (min-width : 375px) {
-  nav {
-    margin-bottom: -1.5em;
-  }
+section {
+  margin-top: .35em;
 }
 
 /*INDEX*/
@@ -849,16 +820,6 @@ nav {
   text-decoration: none;
 }
 
-.index_img {
-  margin-top: .1em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border: 0;
-  border-radius: 5px;
-}
-
 /*PROJECTS*/
 #projects {
   display: inline-block;
@@ -874,10 +835,6 @@ nav {
   margin-bottom: 0;
   /*added letter-spacing*/
   letter-spacing: .1em;
-}
-
- #projects_header {
-  margin-bottom: 25px;
 }
 
 #projects u {
@@ -922,6 +879,8 @@ nav {
 }
 
 .project_images {
+  margin-top: .5em;
+  margin-bottom: 1em;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -950,17 +909,6 @@ nav {
 #about u {
   text-decoration: none;
   border-bottom: 4px solid #000
-}
-
-#about_header {
-  margin-bottom: 25px;
-}
-
-#vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
-  display: flex;
-  align-items: center;
 }
 
 @media screen and (max-width:1070px) {
@@ -999,16 +947,6 @@ nav {
   text-decoration: none;
 }
 
-.about_img {
-  margin-top: .1em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border: 0;
-  border-radius: 5px;
-}
-
 /*CONTACT*/
 #contact {
   display: inline-block;
@@ -1038,16 +976,6 @@ nav {
 #contact .error_text {
   font-size: 12px;
   color: #b6baff;
-}
-
-.contact_img {
-  margin-top: .1em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border: 0;
-  border-radius: 5px;
 }
 
 @media screen and (max-width:1070px) {
@@ -1192,6 +1120,16 @@ footer a {
   text-decoration: none;
 }
 
+#about_img {
+  margin-top: .1em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+  border-radius: 5px;
+}
+
 .ltyellow_text {
   color: #FFED96;
 }
@@ -1273,8 +1211,5 @@ footer a {
     -o-transform: translateY(17%);
     transform: translateY(17%); }
 }
-
-
-
 
 
