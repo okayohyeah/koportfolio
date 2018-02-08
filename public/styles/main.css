@@ -1067,6 +1067,14 @@ footer a {
   width: 100%;
 }
 
+.modal_images {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;  
+  height: auto;
+  border: 0;
+}
+
 .portfolio-modal .modal-dialog {
   max-width: 100%;
   min-height: 100%;
