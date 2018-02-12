@@ -992,6 +992,18 @@ footer a {
 }
 
 /* PROJECTS Main Page*/
+
+/* OVERRIDE container class - bootstrap */
+.container_portfolio {
+  width: 85%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .container_portfolio {
+    width: 65%;
+  }
+}
+
 .projects {
   background: linear-gradient(to bottom, #aa076b, #480048) !important;
   color: #FFED96 !important;
