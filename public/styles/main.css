@@ -1020,6 +1020,11 @@ footer a {
   margin-bottom: 50px;
 }
 
+#subhub-subtitle {
+  font-size: 13px;
+  color: white;
+}
+
 /* PROJECTS section */
 #portfolio .portfolio-item {
   color: #FFD200;
